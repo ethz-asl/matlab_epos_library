@@ -1,5 +1,3 @@
-((Work in progress))
-
 MATLAB EPOS Library
 ===================
 A MATLAB library for easy control of Maxon Motor EPOS2 motor controllers over RS-232 serial connection.
