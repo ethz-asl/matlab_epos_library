@@ -22,6 +22,8 @@ The code has been tested on MATLAB R2013a on Windows 7 (64bit) with two Maxon Mo
 
     obj = serial('COM1','BaudRate',115200, 'Databits', 8, 'Parity', 'none', 'StopBits', 1, 'InputBufferSize', 1024, 'OutputBufferSize', 1024);
 
+Note that all functions, that send a setpoint value, need integers as arguments. Otherwise the decimal to hexadecimal conversion will produce an error.
+	
 If any problems arise, feel free to leave your comments or contact me directly.
 
 Speed Issues
