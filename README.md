@@ -9,7 +9,7 @@ This library permits communication via Matlab functions scripts through RS-232 w
 There is also a Matlab GUI which is an easy way to drive your system in manual mode. The GUI uses callbacks to the above mentioned functions.
 
 The generic folder contains scripts that are not yet tailored to a specific solution and provide the easiest way to be adapted.
-The examples folder shows an application of this code that was used for two EPOS2 controllers (Node 1 and 2). It should serve as resource to see how the generic versions may be adapted to fit specific applications.
+The examples folder shows an application of this code that was used for two EPOS2 controllers (Node 1 and 2). It should serve as resource to see how the generic versions may be adapted to fit specific applications. In this case, Node 1 was connected to the computer via RS-232 and to Node 2 via CAN port. The node numbers were set by physically by DIP-switches on the device itself.
 
 
 Using this Code
