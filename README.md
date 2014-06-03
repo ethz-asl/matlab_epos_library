@@ -18,6 +18,14 @@ You are free to use this code for your own purposes. Please give credit to the a
 
 J. Carius: **Dynamic Maneuvers with a Single-Wheel Robot**, Bachelor Thesis, Autonomous Systems Lab ETH Zurich, 2014.
 
+	@phdthesis{citation_key,
+	author = {Carius, Jan},
+	title = {{Dynamic Maneuvers with a Single-Wheel Robot}},
+	school = {Swiss Federal Institute of Technology Zurich},
+	year = {2014},
+	type = {Bachelor's Thesis}
+	}
+
 The code has been tested on MATLAB R2013a on Windows 7 (64bit) with two Maxon Motor EPOS2 controllers. If using a different operating system, you might have to adapt the naming of the serial port in the file 'RS232_initialize.m'.
 
     obj = serial('COM1','BaudRate',115200, 'Databits', 8, 'Parity', 'none', 'StopBits', 1, 'InputBufferSize', 1024, 'OutputBufferSize', 1024);
